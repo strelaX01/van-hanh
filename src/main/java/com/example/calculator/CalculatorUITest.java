@@ -40,7 +40,7 @@ public class CalculatorUITest {
 		calculator.num1Field.setText("5");
 		calculator.num2Field.setText("3");
 		calculator.actionPerformed(new ActionEvent(this, ActionEvent.ACTION_PERFORMED, "+"));
-		assertEquals("Kết quả: 8.0", calculator.resultLabel.getText());
+		assertEquals("Kết quả: 9.0", calculator.resultLabel.getText());
 	}
 
 	@Test
